@@ -1,6 +1,6 @@
 ## Hi👋, I'm Abdelhedi Rziga
 
-I'm a **Web Developer** with experience in both frontend and backend technologies! Here’s a bit more about me:
+I'm a **Web Developer** ! Here’s a bit more about me:
 
 - 🔭 **Currently working on:** Building responsive web applications and interactive features.
 - 🌱 **Learning more about:** Advanced JavaScript and modern frontend frameworks.
