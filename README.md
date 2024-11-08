@@ -7,8 +7,8 @@ I'm a **Web Developer** with experience in both frontend and backend technologie
 - 👯 **Looking to collaborate on:** MERN stack projects and Java-based applications.
 - 💬 **Ask me about:** MERN stack development, Java Swing, and JSP.
 - 📫 **How to reach me:** 
-  [![Email](https://img.shields.io/badge/Email-hedirziga%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:hedirziga@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/abdelhedi-rziga-8046572ab/)
+  [![Email](https://img.shields.io/badge/Email-hedirziga%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:hedirziga@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelhedi-rziga-8046572ab/)
 
 ---
 
