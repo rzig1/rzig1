@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi👋, I'm Abdelhedi Rziga
 
 I'm a **Web Developer** with experience in both frontend and backend technologies! Here’s a bit more about me:
 
