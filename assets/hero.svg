@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111a33"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1e2a4a"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+
+.f1{animation:float 6s ease-in-out infinite} .f2{animation:float 7s ease-in-out infinite 1s} .f3{animation:float 5s ease-in-out infinite .5s}
+.sp{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}
+.draw{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 4s ease-in-out infinite alternate}
+@keyframes draw{to{stroke-dashoffset:0}}
+.sel{animation:selpulse 3s ease-in-out infinite}
+@keyframes selpulse{0%,100%{opacity:1}50%{opacity:.45}}
+.cur{animation:cur 5s ease-in-out infinite}
+@keyframes cur{0%,100%{transform:translate(0,0)}40%{transform:translate(-18px,-10px)}60%{transform:translate(-18px,-10px)}}
+.in1{opacity:0;animation:fadeUp .8s ease forwards .3s} .in2{opacity:0;animation:fadeUp .8s ease forwards .9s} .in3{opacity:0;animation:fadeUp .8s ease forwards 1.5s}
+.caret{animation:blink 1s step-end infinite}
+
+</style>
+<rect width="860" height="330" rx="20" fill="url(#bg)"/>
+<rect width="860" height="330" rx="20" fill="url(#dots)"/>
+<rect x="0.5" y="0.5" width="859" height="329" rx="20" fill="none" stroke="#1e2a4a"/>
+
+<!-- floating shapes -->
+<g class="f1"><circle cx="760" cy="78" r="34" fill="none" stroke="#38bdf8" stroke-width="3" opacity=".8"/><circle cx="760" cy="78" r="8" fill="#38bdf8"/></g>
+<g class="f2"><polygon points="92,232 132,302 52,302" fill="#fbbf24" opacity=".85"/></g>
+<g class="f3"><rect class="sp" x="738" y="226" width="56" height="56" rx="12" fill="none" stroke="#a78bfa" stroke-width="3"/></g>
+<g class="f2"><circle cx="88" cy="72" r="16" fill="#fb7185" opacity=".9"/><circle cx="118" cy="98" r="7" fill="#34d399"/></g>
+<path fill="#a78bfa" opacity=".18">
+  <animate attributeName="d" dur="9s" repeatCount="indefinite"
+    values="M640,250 C680,215 740,230 735,270 C730,310 670,320 645,295 C620,275 610,270 640,250Z;
+            M635,245 C690,225 750,245 725,280 C700,315 660,312 640,300 C612,282 600,262 635,245Z;
+            M640,250 C680,215 740,230 735,270 C730,310 670,320 645,295 C620,275 610,270 640,250Z"/>
+</path>
+<!-- pen-tool bezier drawing itself -->
+<path class="draw" d="M150,262 C250,200 330,312 430,252 S610,206 700,262" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+<g stroke="#38bdf8" stroke-width="1" opacity=".7"><line x1="430" y1="252" x2="380" y2="282"/><line x1="430" y1="252" x2="480" y2="222"/></g>
+<rect x="146" y="258" width="8" height="8" fill="#fff"/><rect x="426" y="248" width="8" height="8" fill="#38bdf8"/><rect x="696" y="258" width="8" height="8" fill="#fff"/>
+<circle cx="380" cy="282" r="3.5" fill="#38bdf8"/><circle cx="480" cy="222" r="3.5" fill="#38bdf8"/>
+<!-- selected name -->
+<g class="sel">
+  <rect x="170" y="98" width="520" height="78" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="166" y="94" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="166" y="133.0" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="166" y="172" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="426.0" y="94" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="426.0" y="172" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="686" y="94" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="686" y="133.0" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/><rect x="686" y="172" width="8" height="8" fill="#fff" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="170" y="74" width="118" height="18" rx="4" fill="#38bdf8"/>
+  <text x="178" y="87" class="mono" font-size="11" fill="#0b1120" font-weight="700">Text · 52 / Bold</text>
+</g>
+<text class="in1" x="430" y="155" text-anchor="middle" font-size="52" font-weight="800" fill="#fff" letter-spacing="1">Abdelhedi Rziga</text>
+<!-- cursor -->
+<g class="cur"><path d="M700,182 l0,24 l6,-6 l5,11 l4,-2 l-5,-11 l8,0 z" fill="#fff" stroke="#0b1120" stroke-width="1.5"/></g>
+<text class="in2" x="430" y="212" text-anchor="middle" font-size="18" fill="#cbd5e1">Full-stack web developer <tspan fill="#fbbf24">◆</tspan> UI designer <tspan fill="#fbbf24">◆</tspan> Master's student @ ISITCom</text>
+<text class="in3 mono" x="430" y="304" text-anchor="middle" font-size="13" fill="#64748b">~/sousse/tn $ design → code → ship<tspan class="caret" fill="#38bdf8"> ▌</tspan></text>
+
+</svg>

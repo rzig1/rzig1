@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="270" viewBox="0 0 860 270">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111a33"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1e2a4a"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="tg" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#fbbf24"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+</defs>
+<style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.dr{stroke-dasharray:1000;stroke-dashoffset:1000;animation:d 3s ease forwards}@keyframes d{to{stroke-dashoffset:0}}
+</style>
+<rect width="860" height="270" rx="20" fill="url(#bg)"/>
+<rect width="860" height="270" rx="20" fill="url(#dots)"/>
+<rect x="0.5" y="0.5" width="859" height="269" rx="20" fill="none" stroke="#1e2a4a"/>
+<g transform="translate(0,10)"><path d="M60,130 C140,60 200,60 250,130 S360,200 430,130 S540,60 610,130 S740,200 800,130" fill="none" stroke="#1e2a4a" stroke-width="6" stroke-linecap="round"/><path class="dr" d="M60,130 C140,60 200,60 250,130 S360,200 430,130 S540,60 610,130 S740,200 800,130" fill="none" stroke="url(#tg)" stroke-width="3" stroke-linecap="round"/><circle cx="60" cy="130" r="11" fill="#0b1120" stroke="#38bdf8" stroke-width="3"/><circle cx="60" cy="130" r="4" fill="#38bdf8"/>
+<line x1="60" y1="116" x2="60" y2="66" stroke="#38bdf8" stroke-opacity=".4" stroke-dasharray="2 3"/>
+<text x="42" y="42" text-anchor="start" class="mono" font-size="11.5" fill="#38bdf8" font-weight="700">2024</text>
+<text x="42" y="59" text-anchor="start" font-size="14" font-weight="700" fill="#fff">Licence</text>
+<text x="42" y="75" text-anchor="start" font-size="11" fill="#94a3b8">Multimedia &amp; Web</text><circle cx="250" cy="130" r="11" fill="#0b1120" stroke="#a78bfa" stroke-width="3"/><circle cx="250" cy="130" r="4" fill="#a78bfa"/>
+<line x1="250" y1="144" x2="250" y2="180" stroke="#a78bfa" stroke-opacity=".4" stroke-dasharray="2 3"/>
+<text x="250" y="196" text-anchor="middle" class="mono" font-size="11.5" fill="#a78bfa" font-weight="700">Aug 2024</text>
+<text x="250" y="213" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Internship</text>
+<text x="250" y="229" text-anchor="middle" font-size="11" fill="#94a3b8">Innovibe · delivery platform</text><circle cx="430" cy="130" r="11" fill="#0b1120" stroke="#fbbf24" stroke-width="3"/><circle cx="430" cy="130" r="4" fill="#fbbf24"/>
+<line x1="430" y1="116" x2="430" y2="66" stroke="#fbbf24" stroke-opacity=".4" stroke-dasharray="2 3"/>
+<text x="430" y="42" text-anchor="middle" class="mono" font-size="11.5" fill="#fbbf24" font-weight="700">Feb–May 2025</text>
+<text x="430" y="59" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Final-year project</text>
+<text x="430" y="75" text-anchor="middle" font-size="11" fill="#94a3b8">OSTRIX · Paw Pulse SaaS</text><circle cx="610" cy="130" r="11" fill="#0b1120" stroke="#34d399" stroke-width="3"/><circle cx="610" cy="130" r="4" fill="#34d399"/>
+<line x1="610" y1="144" x2="610" y2="180" stroke="#34d399" stroke-opacity=".4" stroke-dasharray="2 3"/>
+<text x="610" y="196" text-anchor="middle" class="mono" font-size="11.5" fill="#34d399" font-weight="700">Now</text>
+<text x="610" y="213" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Master's student</text>
+<text x="610" y="229" text-anchor="middle" font-size="11" fill="#94a3b8">Web &amp; Multimedia · ISITCom</text><circle cx="800" cy="130" r="11" fill="#0b1120" stroke="#fb7185" stroke-width="3"/><circle cx="800" cy="130" r="4" fill="#fb7185"/>
+<line x1="800" y1="116" x2="800" y2="66" stroke="#fb7185" stroke-opacity=".4" stroke-dasharray="2 3"/>
+<text x="818" y="42" text-anchor="end" class="mono" font-size="11.5" fill="#fb7185" font-weight="700">Next</text>
+<text x="818" y="59" text-anchor="end" font-size="14" font-weight="700" fill="#fff">Your project?</text>
+<text x="818" y="75" text-anchor="end" font-size="11" fill="#94a3b8">let's build it together</text><circle r="7" fill="#fff" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M60,130 C140,60 200,60 250,130 S360,200 430,130 S540,60 610,130 S740,200 800,130"/></circle></g>
+</svg>

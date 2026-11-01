@@ -1,4 +1,4 @@
-# Put this file at: .github/workflows/snake.yml (in your GITHUB_USERNAME/GITHUB_USERNAME repo)
+# Put this file at: .github/workflows/snake.yml (in your rzig1/rzig1 repo)
 # It redraws the contribution snake every day and publishes it to an "output" branch.
 name: Generate contribution snake
 

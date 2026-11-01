@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="450" viewBox="0 0 860 450">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111a33"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1e2a4a"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+
+</style>
+<rect width="860" height="450" rx="20" fill="url(#bg)"/>
+<rect width="860" height="450" rx="20" fill="url(#dots)"/>
+<rect x="0.5" y="0.5" width="859" height="449" rx="20" fill="none" stroke="#1e2a4a"/>
+
+<circle cx="430" cy="225" r="48" fill="#38bdf8" opacity=".12"><animate attributeName="r" values="44;58;44" dur="4s" repeatCount="indefinite"/></circle>
+<ellipse cx="430" cy="225" rx="150" ry="66" fill="none" stroke="#38bdf8" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="3 6"/><ellipse cx="430" cy="225" rx="255" ry="118" fill="none" stroke="#a78bfa" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="3 6"/><ellipse cx="430" cy="225" rx="360" ry="172" fill="none" stroke="#fbbf24" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="3 6"/><g><rect x="-54.0" y="-13" width="108.0" height="26" rx="13" fill="#0b1120" stroke="#38bdf8" stroke-width="1.6"/>
+<circle cx="-41.0" cy="0" r="3.5" fill="#38bdf8"/>
+<text x="-31.0" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">JavaScript</text>
+<animateMotion dur="26s" begin="0.00s" repeatCount="indefinite" path="M280,225 a150,66 0 1,0 300,0 a150,66 0 1,0 -300,0"/></g><g><rect x="-35.5" y="-13" width="71.0" height="26" rx="13" fill="#0b1120" stroke="#38bdf8" stroke-width="1.6"/>
+<circle cx="-22.5" cy="0" r="3.5" fill="#38bdf8"/>
+<text x="-12.5" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">React</text>
+<animateMotion dur="26s" begin="-5.20s" repeatCount="indefinite" path="M280,225 a150,66 0 1,0 300,0 a150,66 0 1,0 -300,0"/></g><g><rect x="-42.900000000000006" y="-13" width="85.80000000000001" height="26" rx="13" fill="#0b1120" stroke="#38bdf8" stroke-width="1.6"/>
+<circle cx="-29.900000000000006" cy="0" r="3.5" fill="#38bdf8"/>
+<text x="-19.900000000000006" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Next.js</text>
+<animateMotion dur="26s" begin="-10.40s" repeatCount="indefinite" path="M280,225 a150,66 0 1,0 300,0 a150,66 0 1,0 -300,0"/></g><g><rect x="-46.6" y="-13" width="93.2" height="26" rx="13" fill="#0b1120" stroke="#38bdf8" stroke-width="1.6"/>
+<circle cx="-33.6" cy="0" r="3.5" fill="#38bdf8"/>
+<text x="-23.6" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">HTML/CSS</text>
+<animateMotion dur="26s" begin="-15.60s" repeatCount="indefinite" path="M280,225 a150,66 0 1,0 300,0 a150,66 0 1,0 -300,0"/></g><g><rect x="-46.6" y="-13" width="93.2" height="26" rx="13" fill="#0b1120" stroke="#38bdf8" stroke-width="1.6"/>
+<circle cx="-33.6" cy="0" r="3.5" fill="#38bdf8"/>
+<text x="-23.6" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Tailwind</text>
+<animateMotion dur="26s" begin="-20.80s" repeatCount="indefinite" path="M280,225 a150,66 0 1,0 300,0 a150,66 0 1,0 -300,0"/></g><g><rect x="-42.900000000000006" y="-13" width="85.80000000000001" height="26" rx="13" fill="#0b1120" stroke="#a78bfa" stroke-width="1.6"/>
+<circle cx="-29.900000000000006" cy="0" r="3.5" fill="#a78bfa"/>
+<text x="-19.900000000000006" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Node.js</text>
+<animateMotion dur="40s" begin="0.00s" repeatCount="indefinite" path="M175,225 a255,118 0 1,0 510,0 a255,118 0 1,0 -510,0"/></g><g><rect x="-42.900000000000006" y="-13" width="85.80000000000001" height="26" rx="13" fill="#0b1120" stroke="#a78bfa" stroke-width="1.6"/>
+<circle cx="-29.900000000000006" cy="0" r="3.5" fill="#a78bfa"/>
+<text x="-19.900000000000006" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Express</text>
+<animateMotion dur="40s" begin="-6.67s" repeatCount="indefinite" path="M175,225 a255,118 0 1,0 510,0 a255,118 0 1,0 -510,0"/></g><g><rect x="-42.900000000000006" y="-13" width="85.80000000000001" height="26" rx="13" fill="#0b1120" stroke="#a78bfa" stroke-width="1.6"/>
+<circle cx="-29.900000000000006" cy="0" r="3.5" fill="#a78bfa"/>
+<text x="-19.900000000000006" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">MongoDB</text>
+<animateMotion dur="40s" begin="-13.33s" repeatCount="indefinite" path="M175,225 a255,118 0 1,0 510,0 a255,118 0 1,0 -510,0"/></g><g><rect x="-54.0" y="-13" width="108.0" height="26" rx="13" fill="#0b1120" stroke="#a78bfa" stroke-width="1.6"/>
+<circle cx="-41.0" cy="0" r="3.5" fill="#a78bfa"/>
+<text x="-31.0" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">PostgreSQL</text>
+<animateMotion dur="40s" begin="-20.00s" repeatCount="indefinite" path="M175,225 a255,118 0 1,0 510,0 a255,118 0 1,0 -510,0"/></g><g><rect x="-57.7" y="-13" width="115.4" height="26" rx="13" fill="#0b1120" stroke="#a78bfa" stroke-width="1.6"/>
+<circle cx="-44.7" cy="0" r="3.5" fill="#a78bfa"/>
+<text x="-34.7" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Spring Boot</text>
+<animateMotion dur="40s" begin="-26.67s" repeatCount="indefinite" path="M175,225 a255,118 0 1,0 510,0 a255,118 0 1,0 -510,0"/></g><g><rect x="-28.1" y="-13" width="56.2" height="26" rx="13" fill="#0b1120" stroke="#a78bfa" stroke-width="1.6"/>
+<circle cx="-15.100000000000001" cy="0" r="3.5" fill="#a78bfa"/>
+<text x="-5.100000000000001" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">JSP</text>
+<animateMotion dur="40s" begin="-33.33s" repeatCount="indefinite" path="M175,225 a255,118 0 1,0 510,0 a255,118 0 1,0 -510,0"/></g><g><rect x="-31.8" y="-13" width="63.6" height="26" rx="13" fill="#0b1120" stroke="#fbbf24" stroke-width="1.6"/>
+<circle cx="-18.8" cy="0" r="3.5" fill="#fbbf24"/>
+<text x="-8.8" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Java</text>
+<animateMotion dur="58s" begin="0.00s" repeatCount="indefinite" path="M70,225 a360,172 0 1,0 720,0 a360,172 0 1,0 -720,0"/></g><g><rect x="-54.0" y="-13" width="108.0" height="26" rx="13" fill="#0b1120" stroke="#fbbf24" stroke-width="1.6"/>
+<circle cx="-41.0" cy="0" r="3.5" fill="#fbbf24"/>
+<text x="-31.0" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Java Swing</text>
+<animateMotion dur="58s" begin="-9.67s" repeatCount="indefinite" path="M70,225 a360,172 0 1,0 720,0 a360,172 0 1,0 -720,0"/></g><g><rect x="-39.2" y="-13" width="78.4" height="26" rx="13" fill="#0b1120" stroke="#fbbf24" stroke-width="1.6"/>
+<circle cx="-26.200000000000003" cy="0" r="3.5" fill="#fbbf24"/>
+<text x="-16.200000000000003" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Python</text>
+<animateMotion dur="58s" begin="-19.33s" repeatCount="indefinite" path="M70,225 a360,172 0 1,0 720,0 a360,172 0 1,0 -720,0"/></g><g><rect x="-31.8" y="-13" width="63.6" height="26" rx="13" fill="#0b1120" stroke="#fbbf24" stroke-width="1.6"/>
+<circle cx="-18.8" cy="0" r="3.5" fill="#fbbf24"/>
+<text x="-8.8" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Expo</text>
+<animateMotion dur="58s" begin="-29.00s" repeatCount="indefinite" path="M70,225 a360,172 0 1,0 720,0 a360,172 0 1,0 -720,0"/></g><g><rect x="-65.1" y="-13" width="130.2" height="26" rx="13" fill="#0b1120" stroke="#fbbf24" stroke-width="1.6"/>
+<circle cx="-52.099999999999994" cy="0" r="3.5" fill="#fbbf24"/>
+<text x="-42.099999999999994" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Framer Motion</text>
+<animateMotion dur="58s" begin="-38.67s" repeatCount="indefinite" path="M70,225 a360,172 0 1,0 720,0 a360,172 0 1,0 -720,0"/></g><g><rect x="-46.6" y="-13" width="93.2" height="26" rx="13" fill="#0b1120" stroke="#fbbf24" stroke-width="1.6"/>
+<circle cx="-33.6" cy="0" r="3.5" fill="#fbbf24"/>
+<text x="-23.6" y="4.5" font-size="12.5" font-weight="600" fill="#e2e8f0">Adobe XD</text>
+<animateMotion dur="58s" begin="-48.33s" repeatCount="indefinite" path="M70,225 a360,172 0 1,0 720,0 a360,172 0 1,0 -720,0"/></g>
+<circle cx="430" cy="225" r="38" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow)"/>
+<text x="430" y="233" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">AR</text>
+<g font-size="12" class="mono">
+<circle cx="28" cy="420" r="5" fill="#38bdf8"/><text x="40" y="424" fill="#94a3b8">frontend</text>
+<circle cx="128" cy="420" r="5" fill="#a78bfa"/><text x="140" y="424" fill="#94a3b8">backend &amp; data</text>
+<circle cx="272" cy="420" r="5" fill="#fbbf24"/><text x="284" y="424" fill="#94a3b8">java · mobile · design</text>
+</g>
+
+</svg>

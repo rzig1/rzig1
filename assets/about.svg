@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="372" viewBox="0 0 860 372">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111a33"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1e2a4a"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.l0{opacity:0;animation:fadeUp .5s ease forwards 0.40s}.l1{opacity:0;animation:fadeUp .5s ease forwards 0.65s}.l2{opacity:0;animation:fadeUp .5s ease forwards 0.90s}.l3{opacity:0;animation:fadeUp .5s ease forwards 1.15s}.l4{opacity:0;animation:fadeUp .5s ease forwards 1.40s}.l5{opacity:0;animation:fadeUp .5s ease forwards 1.65s}.l6{opacity:0;animation:fadeUp .5s ease forwards 1.90s}.l7{opacity:0;animation:fadeUp .5s ease forwards 2.15s}.l8{opacity:0;animation:fadeUp .5s ease forwards 2.40s}.l9{opacity:0;animation:fadeUp .5s ease forwards 2.65s}.l10{opacity:0;animation:fadeUp .5s ease forwards 2.90s}.l11{opacity:0;animation:fadeUp .5s ease forwards 3.15s}.caret{animation:blink 1s step-end infinite} .sp{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite} .sp2{transform-box:fill-box;transform-origin:center;animation:spin 12s linear infinite reverse} .f1{animation:float 5s ease-in-out infinite}
+</style>
+<rect width="860" height="372" rx="20" fill="url(#bg)"/>
+<rect width="860" height="372" rx="20" fill="url(#dots)"/>
+<rect x="0.5" y="0.5" width="859" height="371" rx="20" fill="none" stroke="#1e2a4a"/>
+
+<rect x="0" y="0" width="860" height="38" rx="20" fill="#0f172a"/><rect x="0" y="20" width="860" height="18" fill="#0f172a"/>
+<circle cx="26" cy="19" r="6" fill="#fb7185"/><circle cx="46" cy="19" r="6" fill="#fbbf24"/><circle cx="66" cy="19" r="6" fill="#34d399"/>
+<text x="430" y="24" text-anchor="middle" class="mono" font-size="12" fill="#64748b">abdelhedi@arch: ~ — fetch</text>
+<!-- geometric emblem -->
+<g class="f1">
+  <rect class="sp" x="85" y="130" width="120" height="120" rx="18" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity=".7"/>
+  <rect class="sp2" x="105" y="150" width="80" height="80" rx="12" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <polygon points="145,158 180,218 110,218" fill="#fbbf24" opacity=".9"/>
+  <circle cx="145" cy="198" r="9" fill="#0b1120"/>
+</g>
+<text x="145" y="300" text-anchor="middle" class="mono" font-size="12" fill="#64748b">design · code · ship</text>
+<text class="l0 mono" x="300" y="86" font-size="15" font-weight="700"><tspan fill="#38bdf8">abdelhedi</tspan><tspan fill="#94a3b8">@</tspan><tspan fill="#fbbf24">arch</tspan></text><text class="l1 mono" x="300" y="104" font-size="13" fill="#334155">───────────────────</text><text class="l2 mono" x="300" y="128" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Role</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">Full-stack web developer &amp; UI designer</tspan></text><text class="l3 mono" x="300" y="149" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Study</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">Master's, Web &amp; Multimedia Services · ISITCom</tspan></text><text class="l4 mono" x="300" y="170" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">OS</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">Arch Linux (btw)</tspan></text><text class="l5 mono" x="300" y="191" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Editor</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">VS Code</tspan></text><text class="l6 mono" x="300" y="212" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Langs</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">JavaScript · Java · Python · SQL</tspan></text><text class="l7 mono" x="300" y="233" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Design</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">Illustrator · Photoshop · Adobe XD</tspan></text><text class="l8 mono" x="300" y="254" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Club</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">Build.Com · building platforms for ISITCom</tspan></text><text class="l9 mono" x="300" y="275" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Learning</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">advanced JavaScript, modern frontend frameworks</tspan></text><text class="l10 mono" x="300" y="296" font-size="13.5"><tspan fill="#38bdf8" font-weight="700">Collab</tspan><tspan fill="#64748b">: </tspan><tspan fill="#e2e8f0">MERN projects &amp; Java applications</tspan></text>
+<g class="l11"><rect x="300" y="324" width="22" height="12" rx="3" fill="#38bdf8"/><rect x="326" y="324" width="22" height="12" rx="3" fill="#a78bfa"/><rect x="352" y="324" width="22" height="12" rx="3" fill="#fbbf24"/><rect x="378" y="324" width="22" height="12" rx="3" fill="#fb7185"/><rect x="404" y="324" width="22" height="12" rx="3" fill="#34d399"/><rect x="430" y="324" width="22" height="12" rx="3" fill="#e2e8f0"/></g>
+<text class="l11 mono" x="470" y="335" font-size="13" fill="#34d399">$ <tspan class="caret" fill="#38bdf8">▌</tspan></text>
+
+</svg>

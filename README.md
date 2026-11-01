@@ -1,98 +1,87 @@
-<!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:38bdf8&height=190&section=header&text=Abdelhedi%20Rziga&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Web%20Developer&descSize=18&descAlignY=56" width="100%" alt="Abdelhedi Rziga — Web Developer" />
+  <img src="./assets/hero.svg" width="100%" alt="Abdelhedi Rziga — full-stack web developer, UI designer, Master's student at ISITCom" />
 </p>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=620&lines=Hi+%F0%9F%91%8B+I'm+Abdelhedi;I+build+responsive%2C+interactive+web+apps;MERN+stack+%E2%80%A2+Java+Swing+%E2%80%A2+JSP;Currently+levelling+up+in+advanced+JavaScript;Let's+build+something+great+together+%F0%9F%9A%80" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=I+turn+Adobe+XD+frames+into+shipped+products;Next.js+%E2%80%A2+React+%E2%80%A2+Node+%E2%80%A2+Java+%E2%80%A2+Python;Building+platforms+for+ISITCom+with+Build.Com;I+use+Arch%2C+btw+%F0%9F%90%A7" alt="Typing intro" />
   </a>
 </p>
 
 <p align="center">
-  <a href="mailto:hedirziga@gmail.com"><img src="https://img.shields.io/badge/Email-hedirziga%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=38bdf8" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/abdelhedi-rziga-8046572ab/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" /></a>
-  <img src="https://komarev.com/ghpvc/?username=rzig1&label=Profile%20views&color=0f172a&style=for-the-badge" alt="Profile views" />
+  <a href="mailto:hedirziga@gmail.com"><img src="https://img.shields.io/badge/Email-hedirziga%40gmail.com-0b1120?style=for-the-badge&logo=gmail&logoColor=fb7185" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/abdelhedi-rziga-8046572ab/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0b1120?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" /></a>
+  <img src="https://komarev.com/ghpvc/?username=rzig1&label=Visitors&color=a78bfa&style=for-the-badge" alt="Profile visitors" />
 </p>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-### `$ whoami`
+### `01` &nbsp;whoami
 
-```js
-const abdelhedi = {
-  role:            "Web Developer",
-  currentlyBuilding: ["responsive web applications", "interactive features"],
-  learning:        ["advanced JavaScript", "modern frontend frameworks"],
-  openToCollab:    ["MERN stack projects", "Java-based applications"],
-  askMeAbout:      ["MERN stack", "Java Swing", "JSP"],
-  funFact:         "I mix modern and classic stacks to ship efficient, engaging UX 🚀",
-};
-```
+<img src="./assets/about.svg" width="100%" alt="About me: full-stack web developer and UI designer, Master's in Web & Multimedia Services at ISITCom, Arch Linux, VS Code, JavaScript, Java, Python, SQL, Illustrator, Photoshop, Adobe XD, Build.Com club" />
 
----
+### `02` &nbsp;my tech in orbit
 
-### `$ ls ./stack`
+<img src="./assets/stack-orbit.svg" width="100%" alt="Tech stack. Frontend: JavaScript, React, Next.js, HTML/CSS, Tailwind. Backend and data: Node.js, Express, MongoDB, PostgreSQL, Spring Boot, JSP. Java, mobile and design: Java, Java Swing, Python, Expo, Framer Motion, Adobe XD" />
 
-<details open>
-<summary><b>🌐 Frontend</b></summary>
+### `03` &nbsp;things I've built
+
+<img src="./assets/projects.svg" width="100%" alt="Projects: Paw Pulse, Pillar API, FabLab, Fueltracker, Build.Com, H.A.M.A, Delivery platform, Khommej" />
+
+<details>
+<summary><b>🔍 Open the project notes</b></summary>
 <br />
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,html,css,tailwind&theme=dark" alt="JavaScript, React, HTML, CSS, Tailwind" />
-</p>
+
+| | Project | What it is |
+|:--:|:--|:--|
+| 🐾 | **Paw Pulse** | Final-year project at OSTRIX: a multi-tenant SaaS platform for veterinary clinics |
+| 🚌 | **Pillar API** | Middleware connecting the State with private transport operators (compliance portal, secure API, SaaS suite) |
+| 🛠️ | **FabLab** | French desktop app to check lab members in and out in one click, stored locally and synced to Neon PostgreSQL |
+| ⛽ | **Fueltracker** | Mobile app to track fuel, built with React Native and Expo |
+| 🧱 | **Build.Com** | Landing page for the ISITCom development club, in Next.js with Framer Motion |
+| 🦾 | **H.A.M.A** | Hybrid AI Mechanical Assistant: an IoT robotic arm for manufacturing |
+| 🛵 | **Delivery platform** | Delivery management platform built during my internship at Innovibe |
+| 🪰 | **Khommej** | Asymmetric multiplayer game design: flies vs. a very annoyed human |
+
 </details>
 
-<details open>
-<summary><b>🍃 MERN</b></summary>
-<br />
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs&theme=dark" alt="MongoDB, Express, React, Node.js" />
-</p>
-</details>
+### `04` &nbsp;the journey so far
 
-<details open>
-<summary><b>☕ Java & more</b></summary>
-<br />
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,py&theme=dark" alt="Java, Python" />
-  <br />
-  <img src="https://img.shields.io/badge/Java%20Swing-0f172a?style=for-the-badge&logo=openjdk&logoColor=f89820" alt="Java Swing" />
-  <img src="https://img.shields.io/badge/JSP-0f172a?style=for-the-badge&logo=openjdk&logoColor=38bdf8" alt="JSP" />
-</p>
-</details>
+<img src="./assets/journey.svg" width="100%" alt="Journey: 2024 Licence in Multimedia & Web; Aug 2024 internship at Innovibe; Feb–May 2025 final-year project at OSTRIX; now Master's student at ISITCom; next: your project" />
 
----
+### `05` &nbsp;fun fact
 
-### `$ ./stats.sh`
+<img src="./assets/fun-fact.svg" width="100%" alt="Fun fact: I keep classic stacks (Java Swing, JSP, SOAP) and modern stacks (React, Next.js, Tailwind) in balance" />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+### `06` &nbsp;stats
 
 <details>
 <summary><b>📊 Click to open my GitHub stats</b></summary>
 <br />
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rzig1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=38bdf8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzig1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rzig1&show_icons=true&hide_border=true&bg_color=0b1120&title_color=38bdf8&icon_color=fbbf24&text_color=cbd5e1" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzig1&layout=compact&hide_border=true&bg_color=0b1120&title_color=38bdf8&text_color=cbd5e1" alt="Top languages" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rzig1&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=rzig1&hide_border=true&background=0b1120&ring=a78bfa&fire=fb7185&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=64748b&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub streak" />
 </p>
 </details>
 
----
+### `07` &nbsp;pick a door
 
-### `$ ./contact.sh --choose`
-
-<p>Pick a door — each one opens an email that's already written for you:</p>
+Each link opens an email that's already written for you:
 
 | | |
 |:--:|:--|
-| 🤝 | [**Collaborate on a MERN project**](mailto:hedirziga@gmail.com?subject=Let's%20collaborate%20on%20a%20MERN%20project) |
-| ☕ | [**Build something in Java / JSP**](mailto:hedirziga@gmail.com?subject=Java%20%2F%20JSP%20project%20idea) |
-| 💼 | [**Talk about an opportunity**](mailto:hedirziga@gmail.com?subject=Opportunity%20for%20Abdelhedi) |
-| 👋 | [**Just say hi**](mailto:hedirziga@gmail.com?subject=Hi%20Abdelhedi!) |
+| 🤝 | [**Collaborate on a MERN / Next.js project**](mailto:hedirziga@gmail.com?subject=Let's%20build%20something%20together) |
+| 🎨 | [**Design + build a UI with me**](mailto:hedirziga@gmail.com?subject=UI%20design%20%2B%20dev%20project) |
+| 💼 | [**Talk about an internship or a role**](mailto:hedirziga@gmail.com?subject=Opportunity%20for%20Abdelhedi) |
+| 🐧 | [**Argue with me about Linux distros**](mailto:hedirziga@gmail.com?subject=About%20Arch...) |
 
----
+<br />
 
-<!-- Contribution snake: needs .github/workflows/snake.yml (see snake.yml) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rzig1/rzig1/output/github-snake-dark.svg" />
@@ -101,6 +90,4 @@ const abdelhedi = {
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:1e3a8a,100:0f172a&height=110&section=footer" width="100%" alt="" />
-</p>
+<img src="./assets/divider.svg" width="100%" alt="" />
