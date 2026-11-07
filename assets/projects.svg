@@ -4,6 +4,8 @@
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1e2a4a"/></pattern>
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 
+<clipPath id="hexes"><polygon points="321.3,62.0 321.3,138.0 255.5,176.0 189.6,138.0 189.6,62.0 255.5,24.0"/><polygon points="460.9,62.0 460.9,138.0 395.1,176.0 329.3,138.0 329.3,62.0 395.1,24.0"/><polygon points="600.5,62.0 600.5,138.0 534.7,176.0 468.9,138.0 468.9,62.0 534.7,24.0"/><polygon points="740.2,62.0 740.2,138.0 674.4,176.0 608.5,138.0 608.5,62.0 674.4,24.0"/><polygon points="251.5,182.9 251.5,258.9 185.6,296.9 119.8,258.9 119.8,182.9 185.6,144.9"/><polygon points="391.1,182.9 391.1,258.9 325.3,296.9 259.5,258.9 259.5,182.9 325.3,144.9"/><polygon points="530.7,182.9 530.7,258.9 464.9,296.9 399.1,258.9 399.1,182.9 464.9,144.9"/><polygon points="670.4,182.9 670.4,258.9 604.5,296.9 538.7,258.9 538.7,182.9 604.5,144.9"/></clipPath><linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="hexes"><polygon points="321.3,62.0 321.3,138.0 255.5,176.0 189.6,138.0 189.6,62.0 255.5,24.0"/><polygon points="460.9,62.0 460.9,138.0 395.1,176.0 329.3,138.0 329.3,62.0 395.1,24.0"/><polygon points="600.5,62.0 600.5,138.0 534.7,176.0 468.9,138.0 468.9,62.0 534.7,24.0"/><polygon points="740.2,62.0 740.2,138.0 674.4,176.0 608.5,138.0 608.5,62.0 674.4,24.0"/><polygon points="251.5,182.9 251.5,258.9 185.6,296.9 119.8,258.9 119.8,182.9 185.6,144.9"/><polygon points="391.1,182.9 391.1,258.9 325.3,296.9 259.5,258.9 259.5,182.9 325.3,144.9"/><polygon points="530.7,182.9 530.7,258.9 464.9,296.9 399.1,258.9 399.1,182.9 464.9,144.9"/><polygon points="670.4,182.9 670.4,258.9 604.5,296.9 538.7,258.9 538.7,182.9 604.5,144.9"/></clipPath><linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 </defs>
 <style>
 text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;}
@@ -12,60 +14,62 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
 .h0{animation:hp 4s ease-in-out infinite 0.00s}.h1{animation:hp 4s ease-in-out infinite 0.45s}.h2{animation:hp 4s ease-in-out infinite 0.90s}.h3{animation:hp 4s ease-in-out infinite 1.35s}.h4{animation:hp 4s ease-in-out infinite 1.80s}.h5{animation:hp 4s ease-in-out infinite 2.25s}.h6{animation:hp 4s ease-in-out infinite 2.70s}.h7{animation:hp 4s ease-in-out infinite 3.15s}@keyframes hp{0%,100%{opacity:0}20%{opacity:.16}40%{opacity:0}}
+@keyframes pop{from{opacity:0;transform:scale(.4) rotate(-30deg)}to{opacity:1;transform:scale(1) rotate(0)}}.g0{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.10s}.g1{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.22s}.g2{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.34s}.g3{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.46s}.g4{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.58s}.g5{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.70s}.g6{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.82s}.g7{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.94s}
+@keyframes pop{from{opacity:0;transform:scale(.4) rotate(-30deg)}to{opacity:1;transform:scale(1) rotate(0)}}.g0{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.10s}.g1{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.22s}.g2{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.34s}.g3{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.46s}.g4{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.58s}.g5{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.70s}.g6{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.82s}.g7{transform-box:fill-box;transform-origin:center;opacity:0;animation:pop .7s cubic-bezier(.3,1.5,.5,1) forwards 0.94s}
 </style>
 <rect width="860" height="340" rx="20" fill="url(#bg)"/>
 <rect width="860" height="340" rx="20" fill="url(#dots)"/>
 <rect x="0.5" y="0.5" width="859" height="339" rx="20" fill="none" stroke="#1e2a4a"/>
-<g>
+<g class="g0">
 <polygon points="321.3,62.0 321.3,138.0 255.5,176.0 189.6,138.0 189.6,62.0 255.5,24.0" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
 <polygon class="h0" points="321.3,62.0 321.3,138.0 255.5,176.0 189.6,138.0 189.6,62.0 255.5,24.0" fill="#38bdf8" opacity="0"/>
 <text x="255.5" y="76.0" text-anchor="middle" font-size="24">🐾</text>
 <text x="255.5" y="106.0" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">Paw Pulse</text>
 <text x="255.5" y="125.0" text-anchor="middle" font-size="10.5" fill="#cbd5e1">multi-tenant SaaS</text>
 <text x="255.5" y="139.0" text-anchor="middle" font-size="10.5" fill="#38bdf8">for vet clinics</text>
-</g><g>
+</g><g class="g1">
 <polygon points="460.9,62.0 460.9,138.0 395.1,176.0 329.3,138.0 329.3,62.0 395.1,24.0" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
 <polygon class="h1" points="460.9,62.0 460.9,138.0 395.1,176.0 329.3,138.0 329.3,62.0 395.1,24.0" fill="#a78bfa" opacity="0"/>
 <text x="395.1" y="76.0" text-anchor="middle" font-size="24">🚌</text>
 <text x="395.1" y="106.0" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">Pillar API</text>
 <text x="395.1" y="125.0" text-anchor="middle" font-size="10.5" fill="#cbd5e1">transport middleware</text>
 <text x="395.1" y="139.0" text-anchor="middle" font-size="10.5" fill="#a78bfa">State ↔ operators</text>
-</g><g>
+</g><g class="g2">
 <polygon points="600.5,62.0 600.5,138.0 534.7,176.0 468.9,138.0 468.9,62.0 534.7,24.0" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
 <polygon class="h2" points="600.5,62.0 600.5,138.0 534.7,176.0 468.9,138.0 468.9,62.0 534.7,24.0" fill="#fbbf24" opacity="0"/>
 <text x="534.7" y="76.0" text-anchor="middle" font-size="24">🛠️</text>
 <text x="534.7" y="106.0" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">FabLab</text>
 <text x="534.7" y="125.0" text-anchor="middle" font-size="10.5" fill="#cbd5e1">desktop presence app</text>
 <text x="534.7" y="139.0" text-anchor="middle" font-size="10.5" fill="#fbbf24">Python · Neon sync</text>
-</g><g>
+</g><g class="g3">
 <polygon points="740.2,62.0 740.2,138.0 674.4,176.0 608.5,138.0 608.5,62.0 674.4,24.0" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
 <polygon class="h3" points="740.2,62.0 740.2,138.0 674.4,176.0 608.5,138.0 608.5,62.0 674.4,24.0" fill="#34d399" opacity="0"/>
 <text x="674.4" y="76.0" text-anchor="middle" font-size="24">⛽</text>
 <text x="674.4" y="106.0" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">Fueltracker</text>
 <text x="674.4" y="125.0" text-anchor="middle" font-size="10.5" fill="#cbd5e1">mobile fuel tracker</text>
 <text x="674.4" y="139.0" text-anchor="middle" font-size="10.5" fill="#34d399">React Native · Expo</text>
-</g><g>
+</g><g class="g4">
 <polygon points="251.5,182.9 251.5,258.9 185.6,296.9 119.8,258.9 119.8,182.9 185.6,144.9" fill="#0f172a" stroke="#fb7185" stroke-width="2"/>
 <polygon class="h4" points="251.5,182.9 251.5,258.9 185.6,296.9 119.8,258.9 119.8,182.9 185.6,144.9" fill="#fb7185" opacity="0"/>
 <text x="185.6" y="196.9" text-anchor="middle" font-size="24">🧱</text>
 <text x="185.6" y="226.9" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">Build.Com</text>
 <text x="185.6" y="245.9" text-anchor="middle" font-size="10.5" fill="#cbd5e1">club landing page</text>
 <text x="185.6" y="259.9" text-anchor="middle" font-size="10.5" fill="#fb7185">Next.js · Framer</text>
-</g><g>
+</g><g class="g5">
 <polygon points="391.1,182.9 391.1,258.9 325.3,296.9 259.5,258.9 259.5,182.9 325.3,144.9" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
 <polygon class="h5" points="391.1,182.9 391.1,258.9 325.3,296.9 259.5,258.9 259.5,182.9 325.3,144.9" fill="#38bdf8" opacity="0"/>
 <text x="325.3" y="196.9" text-anchor="middle" font-size="24">🦾</text>
 <text x="325.3" y="226.9" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">H.A.M.A</text>
 <text x="325.3" y="245.9" text-anchor="middle" font-size="10.5" fill="#cbd5e1">IoT robotic arm</text>
 <text x="325.3" y="259.9" text-anchor="middle" font-size="10.5" fill="#38bdf8">hybrid AI assistant</text>
-</g><g>
+</g><g class="g6">
 <polygon points="530.7,182.9 530.7,258.9 464.9,296.9 399.1,258.9 399.1,182.9 464.9,144.9" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
 <polygon class="h6" points="530.7,182.9 530.7,258.9 464.9,296.9 399.1,258.9 399.1,182.9 464.9,144.9" fill="#a78bfa" opacity="0"/>
 <text x="464.9" y="196.9" text-anchor="middle" font-size="24">🛵</text>
 <text x="464.9" y="226.9" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">Delivery</text>
 <text x="464.9" y="245.9" text-anchor="middle" font-size="10.5" fill="#cbd5e1">delivery platform</text>
 <text x="464.9" y="259.9" text-anchor="middle" font-size="10.5" fill="#a78bfa">@ Innovibe</text>
-</g><g>
+</g><g class="g7">
 <polygon points="670.4,182.9 670.4,258.9 604.5,296.9 538.7,258.9 538.7,182.9 604.5,144.9" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
 <polygon class="h7" points="670.4,182.9 670.4,258.9 604.5,296.9 538.7,258.9 538.7,182.9 604.5,144.9" fill="#fbbf24" opacity="0"/>
 <text x="604.5" y="196.9" text-anchor="middle" font-size="24">🪰</text>
@@ -73,4 +77,6 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono
 <text x="604.5" y="245.9" text-anchor="middle" font-size="10.5" fill="#cbd5e1">flies vs human</text>
 <text x="604.5" y="259.9" text-anchor="middle" font-size="10.5" fill="#fbbf24">multiplayer game design</text>
 </g>
+<g clip-path="url(#hexes)"><rect x="-200" y="0" width="160" height="340" fill="url(#beam)" transform="skewX(-20)"><animate attributeName="x" values="-260;1000;1000" keyTimes="0;.6;1" dur="6s" repeatCount="indefinite"/></rect></g>
+<g clip-path="url(#hexes)"><rect x="-200" y="0" width="160" height="340" fill="url(#beam)" transform="skewX(-20)"><animate attributeName="x" values="-260;1000;1000" keyTimes="0;.6;1" dur="6s" repeatCount="indefinite"/></rect></g>
 </svg>

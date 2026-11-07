@@ -90,4 +90,4 @@ Each link opens an email that's already written for you:
   </picture>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./assets/footer.svg" width="100%" alt="Thanks for scrolling this far" />
