@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=I+turn+Adobe+XD+frames+into+shipped+products;Next.js+%E2%80%A2+React+%E2%80%A2+Node+%E2%80%A2+Java+%E2%80%A2+Python;Building+platforms+for+ISITCom+with+Build.Com;I+use+Arch%2C+btw+%F0%9F%90%A7" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Next.js+%E2%80%A2+React+%E2%80%A2+Node+%E2%80%A2+Java+%E2%80%A2+Python;Building+platforms+for+ISITCom+with+Build.Com;I+use+Arch%2C+btw+%F0%9F%90%A7" alt="Typing intro" />
   </a>
 </p>
 
@@ -57,17 +57,9 @@
 
 ### `06` &nbsp;stats
 
-<details>
-<summary><b>📊 Click to open my GitHub stats</b></summary>
-<br />
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rzig1&show_icons=true&hide_border=true&bg_color=0b1120&title_color=38bdf8&icon_color=fbbf24&text_color=cbd5e1" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzig1&layout=compact&hide_border=true&bg_color=0b1120&title_color=38bdf8&text_color=cbd5e1" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/rzig1/rzig1/output/stats.svg" width="100%" alt="GitHub stats for rzig1: contributions, commits, pull requests, stars, repos, weekly activity, streak and top languages (refreshed daily)" />
 </p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rzig1&hide_border=true&background=0b1120&ring=a78bfa&fire=fb7185&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=64748b&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub streak" />
-</p>
-</details>
 
 ### `07` &nbsp;pick a door
 
