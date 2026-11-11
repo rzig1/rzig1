@@ -61,19 +61,6 @@
   <img src="https://raw.githubusercontent.com/rzig1/rzig1/output/stats.svg" width="100%" alt="GitHub stats for rzig1: contributions, commits, pull requests, stars, repos, weekly activity, streak and top languages (refreshed daily)" />
 </p>
 
-### `07` &nbsp;pick a door
-
-Each link opens an email that's already written for you:
-
-| | |
-|:--:|:--|
-| 🤝 | [**Collaborate on a MERN / Next.js project**](mailto:hedirziga@gmail.com?subject=Let's%20build%20something%20together) |
-| 🎨 | [**Design + build a UI with me**](mailto:hedirziga@gmail.com?subject=UI%20design%20%2B%20dev%20project) |
-| 💼 | [**Talk about an internship or a role**](mailto:hedirziga@gmail.com?subject=Opportunity%20for%20Abdelhedi) |
-| 🐧 | [**Argue with me about Linux distros**](mailto:hedirziga@gmail.com?subject=About%20Arch...) |
-
-<br />
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rzig1/rzig1/output/github-snake-dark.svg" />
