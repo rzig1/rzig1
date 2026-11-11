@@ -29,6 +29,10 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#38bdf8
 
+      # snk runs in a Docker container as root, so dist/ ends up root-owned.
+      - name: Fix dist/ ownership
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       - name: Generate stats card
         env:
           # Optional: add a STATS_TOKEN secret (classic PAT, read:user) to include private contributions.
