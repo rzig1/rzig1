@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Next.js+%E2%80%A2+React+%E2%80%A2+Node+%E2%80%A2+Java+%E2%80%A2+Python;Building+platforms+for+ISITCom+with+Build.Com;I+use+Arch%2C+btw+%F0%9F%90%A7" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Next.js+%E2%80%A2+React+%E2%80%A2+Node+%E2%80%A2+Java+%E2%80%A2+Python;Member+of+BuildCom+%E2%80%94+built+its+landing+page;I+use+Arch%2C+btw+%F0%9F%90%A7" alt="Typing intro" />
   </a>
 </p>
 
@@ -18,7 +18,7 @@
 
 ### `01` &nbsp;whoami
 
-<img src="./assets/about.svg" width="100%" alt="About me: full-stack web developer and UI designer, Master's in Web & Multimedia Services at ISITCom, Arch Linux, VS Code, JavaScript, Java, Python, SQL, Illustrator, Photoshop, Adobe XD, Build.Com club" />
+<img src="./assets/about.svg" width="100%" alt="About me: full-stack web developer and UI designer, Master's in Web & Multimedia Services at ISITCom, Arch Linux, VS Code, JavaScript, Java, Python, SQL, Illustrator, Photoshop, Adobe XD, BuildCom club" />
 
 ### `02` &nbsp;my tech in orbit
 
@@ -26,7 +26,7 @@
 
 ### `03` &nbsp;things I've built
 
-<img src="./assets/projects.svg" width="100%" alt="Projects: Paw Pulse, Pillar API, FabLab, Fueltracker, Build.Com, H.A.M.A, Delivery platform, Khommej" />
+<img src="./assets/projects.svg" width="100%" alt="Projects: Paw Pulse, Pillar API, FabLab, Fueltracker, BuildCom, H.A.M.A, Delivery platform, Khommej" />
 
 <details>
 <summary><b>🔍 Open the project notes</b></summary>
@@ -38,7 +38,7 @@
 | 🚌 | **Pillar API** | Middleware connecting the State with private transport operators (compliance portal, secure API, SaaS suite) |
 | 🛠️ | **FabLab** | French desktop app to check lab members in and out in one click, stored locally and synced to Neon PostgreSQL |
 | ⛽ | **Fueltracker** | Mobile app to track fuel, built with React Native and Expo |
-| 🧱 | **Build.Com** | Landing page for the ISITCom development club, in Next.js with Framer Motion |
+| 🧱 | **BuildCom** | Landing page I developed for BuildCom, the ISITCom development club (Next.js + Framer Motion) |
 | 🦾 | **H.A.M.A** | Hybrid AI Mechanical Assistant: an IoT robotic arm for manufacturing |
 | 🛵 | **Delivery platform** | Delivery management platform built during my internship at Innovibe |
 | 🪰 | **Khommej** | Asymmetric multiplayer game design: flies vs. a very annoyed human |

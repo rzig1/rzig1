@@ -52,7 +52,7 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;} .mono
 <polygon points="251.5,182.9 251.5,258.9 185.6,296.9 119.8,258.9 119.8,182.9 185.6,144.9" fill="#0f172a" stroke="#fb7185" stroke-width="2"/>
 <polygon class="h4" points="251.5,182.9 251.5,258.9 185.6,296.9 119.8,258.9 119.8,182.9 185.6,144.9" fill="#fb7185" opacity="0"/>
 <text x="185.6" y="196.9" text-anchor="middle" font-size="24">🧱</text>
-<text x="185.6" y="226.9" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">Build.Com</text>
+<text x="185.6" y="226.9" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">BuildCom</text>
 <text x="185.6" y="245.9" text-anchor="middle" font-size="10.5" fill="#cbd5e1">club landing page</text>
 <text x="185.6" y="259.9" text-anchor="middle" font-size="10.5" fill="#fb7185">Next.js · Framer</text>
 </g><g class="g5">
