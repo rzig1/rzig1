@@ -14,12 +14,17 @@ on:
 permissions:
   contents: write
 
+# Only one run at a time: two runs pushing to "output" together make one of them fail.
+concurrency:
+  group: profile-images
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Generate snake SVGs
         uses: Platane/snk@v3
